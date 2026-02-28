@@ -1,6 +1,6 @@
 import posthog from 'posthog-js';
 
-const POSTHOG_KEY = 'PLACEHOLDER_TOKEN';
+const POSTHOG_KEY = 'phc_bAzDr9pyF5cSS47pQbJDRKbj7EkEdWBebHRT183SyaD';
 const POSTHOG_HOST = 'https://eu.i.posthog.com';
 
 export function initPostHog() {
