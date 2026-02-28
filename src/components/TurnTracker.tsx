@@ -9,6 +9,7 @@ import { NavigationControls } from "./NavigationControls";
 import { SettingsButton } from "./SettingsButton";
 import { SettingsModal } from "./SettingsModal";
 import { DesktopLayout } from "./DesktopLayout";
+import { Footer } from "./Footer";
 import { cn } from "@/lib/utils";
 
 const TurnTracker = () => {
@@ -246,6 +247,8 @@ const TurnTracker = () => {
           onReset={resetGameState}
           disablePrev={currentPhaseIndex === 0 && currentSubPhaseIndex === 0}
         />
+
+        <Footer />
       </div>
 
       {/* Settings Button - Desktop */}

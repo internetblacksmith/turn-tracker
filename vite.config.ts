@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/turn-tracker/' : '/',
+  base: '/',
   server: {
     host: "::",
     port: 8080,

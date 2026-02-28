@@ -4,6 +4,7 @@ import { LifeCounterPanel } from "./LifeCounterPanel";
 import { PhaseDescription } from "./PhaseDescription";
 import { NavigationControls } from "./NavigationControls";
 import { PhaseIcon } from "./PhaseIcon";
+import { Footer } from "./Footer";
 import { cn } from "@/lib/utils";
 
 interface DesktopLayoutProps {
@@ -213,6 +214,8 @@ export const DesktopLayout = ({
           Next step
         </span>
       </div>
+
+      <Footer />
     </div>
   );
 };
